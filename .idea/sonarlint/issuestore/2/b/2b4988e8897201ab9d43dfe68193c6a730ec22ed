@@ -1,6 +1,5 @@
 
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£ø•8æóÂÉü1J$4946b42c-24ef-4cb3-866f-2781a090336c
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®†Òµ8æóÂÉü1J$d3f42e06-a479-4e33-9e8a-a00576c46c37
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£ø•8À—Ì¡ÿ1J$f0490607-ee0f-47c1-bc64-0894a8ff2e29
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®†Òµ8Á—Ì¡ÿ1J$dc142322-863d-44fc-9215-4c1c4e2fdb34
 ¤
-java:S2629$"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(´¹Èïúÿÿÿÿ8ÛôÏÉü1J$02bbc74a-fc80-40f4-8301-a488e72e2202
-r	java:S106)"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÖåÉü1J$d691b32f-78b8-4d0e-b2d3-323748d7d74b
+java:S2629""\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(´¹Èïúÿÿÿÿ8Ã—Ì¡ÿ1J$e62fc431-dbf9-4694-a5c5-3bdae9799a32
