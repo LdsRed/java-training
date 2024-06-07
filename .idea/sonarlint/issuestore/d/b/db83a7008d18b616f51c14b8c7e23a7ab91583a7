@@ -1,0 +1,13 @@
+
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àèé8ú®é±ü1J$c98649e2-4cbb-48f6-bdc1-679678637927
+r
+java:S1066"/Merge this if statement with the enclosing one.( ¿×8û®é±ü1J$ebb55422-a1be-4f6b-997d-ec8b45c548df
+š	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8û®é±ü1J$51093a66-85f8-4d01-a512-c62001a537d7
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(Ñ«¿©ûÿÿÿÿ8ş®é±ü1J$f6b3ae26-f194-413c-83f6-1f8a03bfe449
+]	java:S125	"<This block of commented-out lines of code should be removed.(ş˜îŒşÿÿÿÿ8Å½ëÊü1
+l
+java:S1940")Use the opposite operator ("!=") instead.(¤¬²µ8…¯é±ü1J$385dd0eb-e639-4d28-9313-6b3386656a5c
+l
+java:S1940")Use the opposite operator ("!=") instead.(¤¬²µ8…¯é±ü1J$46f4d5ef-d0e3-4af3-8107-3d72efe5b98b
+r	java:S106"+Replace this use of System.out by a logger.(Œ¾áÅüÿÿÿÿ8ˆ¯é±ü1J$4b4dca97-598d-49a8-8f7a-c5f7e720c891
+m	java:S106"+Replace this use of System.out by a logger.(Ú³¦Ş8İÂçµü1J$18fdda64-bb2c-4990-888f-dfc77787f4ad
