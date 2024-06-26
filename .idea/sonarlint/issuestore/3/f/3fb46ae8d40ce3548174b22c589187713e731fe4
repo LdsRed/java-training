@@ -1,0 +1,7 @@
+
+l	java:S106
+"+Replace this use of System.out by a logger.(é©¼8§ýì¯…2J$da47abc6-97e6-4b54-80a8-f8579eaa74a8
+p
+java:S1068"(Remove this unused "raza" private field.(îÜÐ£üÿÿÿÿ8ø¡ó¯…2J$e07c794d-68d9-4419-814d-276c1019932f
+r
+java:S1068"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ8ø¡ó¯…2J$8a71190e-3c2b-452e-b12f-448da4b5bb9b
