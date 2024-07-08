@@ -1,5 +1,18 @@
 package sections.junior;
 
+
+
+/*Clase Abstracta
+* Caracteristicas:
+*   -Puede tener métodos abstractos y concretos
+*   -Puede tener variables de instancia
+*   -Puede tener constructores
+*   -Cumple solo con Herencia Simple
+*   -Los métodos pueden tener cualquier modificaord de acceso (public, private, protected, etc)
+*   -USOS:
+*        - Generalmente se la utiliza para la herencia de codigo y caracteristicas comunes a la subclases
+*           siempre y cuando esten relacionadas.
+* */
 public abstract class Vehiculo {
 
     private String color;

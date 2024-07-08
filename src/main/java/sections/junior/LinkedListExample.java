@@ -7,7 +7,7 @@ import java.util.List;
 public class LinkedListExample {
 
     public static void main(String[] args) {
-        ArrayList<String> array_ciudades = new ArrayList<>();
+        LinkedList<String> array_ciudades = new LinkedList<>();
         array_ciudades.add("Barcelona");
         array_ciudades.add("Bogota");
         array_ciudades.add("Resistencia");
@@ -26,7 +26,7 @@ public class LinkedListExample {
 
 
         System.out.println("Ciudades desde stream");
-        ciudades.stream().forEach(System.out::println);
+        ciudades.forEach(System.out::println);
 
     }
 }

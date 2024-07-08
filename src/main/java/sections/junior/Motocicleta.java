@@ -29,6 +29,7 @@ public class Motocicleta extends Vehiculo {
         this.esElectrica = esElectrica;
     }
 
+
     public boolean isEsElectrica() {
         return esElectrica;
     }

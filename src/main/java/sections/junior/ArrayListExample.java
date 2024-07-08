@@ -16,6 +16,7 @@ public class ArrayListExample {
 
         List<Integer> myIntegerList = new ArrayList<>();
 
+
         myIntegerList.add(1);
         myIntegerList.add(2);
         myIntegerList.add(3);
@@ -28,6 +29,14 @@ public class ArrayListExample {
 
         //Mantine el orden de Inserción
         myIntegerList.forEach(System.out::println);
+        for (int i = 0; i < myIntegerList.size(); i++) {
+            System.out.println(myIntegerList.get(i));
+        }
+
+        for(Integer myInt : myIntegerList) {
+            System.out.println(myInt);
+
+        }
 
         System.out.println(myIntegerList.get(2));
 

@@ -14,7 +14,7 @@ public class SumList {
 
     public static void main(String[] args) {
 
-        int[] arrayTest = {1,2,3,4,2,1,5,6,7};
+        int[] arrayTest = {3,4,3,6};
 
         int result = sumNoDuplicates(arrayTest);
         System.out.println(result);

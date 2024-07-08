@@ -15,4 +15,6 @@ INSERT INTO producto (nombre, precio, cantidad ) VALUES ('Nvidia Geforce GTX 166
 INSERT INTO producto (nombre, precio, cantidad) VALUES ('RX 580 8GB', 76000, 6);
 INSERT INTO producto (nombre, precio, cantidad) VALUES ('Nvidia Geforce GTX 1660 TI 6GB', 200000, 10);
 
+
+
 SELECT * FROM producto;

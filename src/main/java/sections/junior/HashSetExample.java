@@ -25,12 +25,15 @@ public class HashSetExample {
         hashSetFrutas.add("Tomate");
         hashSetFrutas.add("Kiwi");
         hashSetFrutas.add("Pera");
+        hashSetFrutas.remove("Tomate");
 
 
         hashSetFrutas.add("Manzana");
 
 
         hashSetFrutas.forEach(System.out::println);
+
+        System.out.println(hashSetFrutas.size());
 
 
     }
