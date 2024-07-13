@@ -17,7 +17,7 @@ public class MapExample {
     }
 
     public static Map<String, Integer> getWordFrequency(String text){
-        Map<String, Integer> wordFrequencyMap = new hashMap<>();
+        Map<String, Integer> wordFrequencyMap = new HashMap<>();
 
         String[] words = text.split("\\W+");
         for (String word : words ) {
