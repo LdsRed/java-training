@@ -1,4 +1,8 @@
-use clients;
+CREATE database IF NOT EXISTS ejercicio4;
+
+SHOW DATABASES; 
+
+use ejercicio4;
 
 
 DROP TABLE IF EXISTS clientes;
