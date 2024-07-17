@@ -22,9 +22,13 @@ public class AnimalContainers<T> {
     //no tiene o no puede implementar
     // makeSound(), el programa dará error en tiempo
     // de compilación
+    /*
     public void printAllSounds(){
         for (T t : collection) {
             System.out.println(t.makeSound());
         }
     }
+
+
+     */
 }
