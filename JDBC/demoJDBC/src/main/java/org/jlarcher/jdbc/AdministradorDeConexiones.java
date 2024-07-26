@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class AdministradorDeConexiones {
 
     private static String url = "jdbc:mariadb://localhost:3306/ejercicio04";
-    private static String dbUser = "root";
+    private static String dbUser = "phreacker";
     private static String dbPassword ="1998";
     private static Connection connection;
 

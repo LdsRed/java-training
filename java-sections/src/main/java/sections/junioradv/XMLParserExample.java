@@ -15,7 +15,7 @@ public class XMLParserExample {
         try{
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document document = builder.parse(new File("C:\\Users\\jor\\Documents\\java-training\\java-sections\\src\\main\\java\\sections\\junioradv\\example.xml"));
+            Document document = builder.parse(new File("/home/jor_test_24-07-24/Documentos/java-training/java-sections/src/main/java/sections/junioradv/example.xml"));
             document.getDocumentElement().normalize();
             NodeList nodeList = document.getElementsByTagName("case");
 
