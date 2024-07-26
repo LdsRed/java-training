@@ -16,32 +16,18 @@ import java.sql.Statement;
  */
 public class App 
 {
-    public static void main( String[] args ) throws SQLException, ClassNotFoundException {
+    public static void main( String[] args ) throws SQLException {
 
 
-        try(Connection con = AdministradorDeConexiones.getConnection()) {
+
 
             ClienteRepository<Cliente> repositorioCliente = new ClienteRepositoryImp();
 
             repositorioCliente.listarClientes().forEach(System.out::println);
 
-            //System.out.println(repositorioCliente.buscarPorId(1L));
-
-            //Cliente cliente1 = new Cliente("Kevin Larcher", "Padre cerqueira 550", 2);
-            Cliente cliente2 = new Cliente("Franco Larcher", "Marco Paz 240", 1);
-
-
-            //repositorioCliente.registrarCliente(cliente1);
-
-            //repositorioCliente.registrarCliente(cliente2);
 
 
 
-
-
-        }catch (SQLException e){
-            e.printStackTrace();
-        }
 
     }
 }

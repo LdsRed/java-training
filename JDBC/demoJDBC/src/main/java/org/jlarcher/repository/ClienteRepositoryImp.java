@@ -19,7 +19,7 @@ public class ClienteRepositoryImp implements ClienteRepository<Cliente>{
        List<Cliente> clientes = new ArrayList<>();
 
        try(Statement stmt = getConnection().createStatement();
-           ResultSet resultSet = stmt.executeQuery("SELECT * FROM clientes")){
+           ResultSet resultSet = stmt.executeQuery("SELECT * FROM clientess")){
 
            //Se debe crear un cliente al cual se le mapeara los datos extraidos de la bd y posteriormente
            //agregados a la lista creada anteriormente
@@ -30,8 +30,10 @@ public class ClienteRepositoryImp implements ClienteRepository<Cliente>{
                clientes.add(cliente);
            }
 
-       } catch (SQLException e) {
+       } catch (SQLSyntaxErrorException e) {
            e.printStackTrace();
+       }catch (SQLException e){
+
        }
 
 
