@@ -2,6 +2,9 @@ package sections.semisenior;
 
 public abstract class Duck {
 
+
+    protected FlyBehavior flyBehavior;
+    protected QuackBehavior quackBehavior;
     private String name;
     private String color;
     private int age;
@@ -51,9 +54,35 @@ public abstract class Duck {
     }
 
 
+    public FlyBehavior getFlyBehavior() {
+        return flyBehavior;
+    }
+
+
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    public QuackBehavior getQuackBehavior() {
+        return quackBehavior;
+    }
+
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
+    }
+
+    public void performFly() {
+        this.flyBehavior.fly();
+    }
+
+    public void performQuack() {
+        this.quackBehavior.quack();
+    }
+
     public abstract void display();
     public abstract void swim();
 
     public abstract void eat();
+
 
 }
