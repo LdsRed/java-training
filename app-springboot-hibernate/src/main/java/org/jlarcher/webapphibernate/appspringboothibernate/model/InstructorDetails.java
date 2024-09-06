@@ -21,10 +21,9 @@ public class InstructorDetails {
 
     public InstructorDetails(){}
 
-    public InstructorDetails(String hobby, String youtubeChannel, Long id) {
+    public InstructorDetails(String hobby, String youtubeChannel) {
         this.hobby = hobby;
         this.youtubeChannel = youtubeChannel;
-        this.id = id;
     }
 
     public String getHobby() {
@@ -49,5 +48,14 @@ public class InstructorDetails {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "InstructorDetails{" +
+                "id=" + id +
+                ", youtubeChannel='" + youtubeChannel + '\'' +
+                ", hobby='" + hobby + '\'' +
+                '}';
     }
 }
