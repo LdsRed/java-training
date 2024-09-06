@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name ="instructor_details")
-public class IntructorDetails {
+public class InstructorDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,9 +19,9 @@ public class IntructorDetails {
     private String hobby;
 
 
-    public IntructorDetails(){}
+    public InstructorDetails(){}
 
-    public IntructorDetails(String hobby, String youtubeChannel, Long id) {
+    public InstructorDetails(String hobby, String youtubeChannel, Long id) {
         this.hobby = hobby;
         this.youtubeChannel = youtubeChannel;
         this.id = id;

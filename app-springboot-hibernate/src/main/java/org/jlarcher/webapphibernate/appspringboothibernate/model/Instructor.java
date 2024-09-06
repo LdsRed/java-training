@@ -22,13 +22,15 @@ public class Instructor {
     private String email;
 
     @Column(name = "instructor_details")
-    private int instructorDetails;
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name="instructor_detail_id")
+    private InstructorDetails instructorDetails;
 
     public Instructor(){}
 
 
 
-    public Instructor(Long id, String firstName, String lastName, String email, int instructorDetails) {
+    public Instructor(Long id, String firstName, String lastName, String email, InstructorDetails instructorDetails) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -69,11 +71,11 @@ public class Instructor {
         this.email = email;
     }
 
-    public int getInstructorDetails() {
+    public InstructorDetails getInstructorDetails() {
         return instructorDetails;
     }
 
-    public void setInstructorDetails(int instructorDetails) {
+    public void setInstructorDetails(InstructorDetails instructorDetails) {
         this.instructorDetails = instructorDetails;
     }
 }
