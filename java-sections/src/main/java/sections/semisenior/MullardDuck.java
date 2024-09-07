@@ -5,11 +5,10 @@ public class MullardDuck extends Duck {
 
     public MullardDuck() {}
 
-    public MullardDuck(String name, String color, int age, String race, FlyBehavior flyBehavior,
-                       QuackBehavior quackBehavior) {
+    public MullardDuck(String name, String color, int age, String race) {
         super(name, color, age, race);
-        this.quackBehavior = quackBehavior;
-        this.flyBehavior = flyBehavior;
+        setQuackBehavior(new Quack());
+        setFlyBehavior(new FlyWithWings());
     }
 
     @Override
